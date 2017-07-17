@@ -6,7 +6,10 @@
 
 body {
     background-color:blue;
+    input {
+        width: 50%;
+    }
 }
 
 // Components
-@import './components/example-component/_example';
+@import '../components/example-component/_example.scss';
