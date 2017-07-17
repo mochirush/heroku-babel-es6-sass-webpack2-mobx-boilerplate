@@ -42,23 +42,6 @@ module.exports = {
     },
     plugins: [
         new webpack.NamedModulesPlugin(),
-        // new webpack.LoaderOptionsPlugin({
-        //     debug: true,
-        //     postcss: () => {
-        //         return [
-        //             /* eslint-disable global-require */
-        //             require('postcss-cssnext')({
-        //                 features: {
-        //                     customProperties: {
-        //                         variables: reactToolboxVariables,
-        //                     },
-        //                 },
-        //             }),
-        //             require('postcss-modules-values'),
-        //             /* eslint-enable global-require */
-        //         ];
-        //     }
-        // }),
         new ExtractTextPlugin('./public/main.css')
     ],
 };
