@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Heroku - ES6 - Webpack 2 - mobX - Axios - Sass - Boilerplate</title>
+    <meta name="description" content="Heroku - ES6 - Webpack 2 - mobX - Axios - Sass - Boilerplate"/>
+    <meta name="viewport" content="initial-scale=1.0,user-scalable=no,maximum-scale=1,width=device-width"/>
+    <meta name="viewport" content="initial-scale=1.0,user-scalable=no,maximum-scale=1" media="(device-height: 568px)"/>
+    <meta http-equiv="cleartype" content="on">
+  </head>
+
+  <body>
+    <script async>
+        (function () {
+          const link = document.createElement('link');
+          link.rel = 'stylesheet'
+          link.href = process.env.NODE_ENV === 'development' ? '' : './static/main.css';
+          document.write(link.outerHTML);
+        }());
+    </script>
+    <div id="app"></div>
+    <script src="bundle.js"></script>
+  </body>
+</html>
